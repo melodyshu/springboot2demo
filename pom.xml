@@ -21,4 +21,14 @@
         </dependency>
     </dependencies>
 
+    <!--将当前项目打成jar包-->
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-maven-plugin</artifactId>
+            </plugin>
+        </plugins>
+    </build>
+
 </project>
